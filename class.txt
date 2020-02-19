@@ -1,0 +1,20 @@
+git --version
+cd Desktop/
+mkdir web
+cd web
+git clone https://github.com/someshkovi/webdev.git
+cd webdev/
+touch hello.html
+atom .
+git add hello.html
+git commit -m "initialSet"
+
+#add user to local git
+git config --global user.email "someshkovi@gmail.com"
+git config --local -l
+git commit -m "added hello.html"
+git status
+git push
+git pull
+git commit -m "added a third line to hello.html"
+git log
