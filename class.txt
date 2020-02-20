@@ -20,3 +20,4 @@ git commit -m "added a third line to hello.html"
 git log
 git branch
 git branch <new branch>
+git checkout <change branch, changes files>
