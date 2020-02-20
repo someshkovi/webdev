@@ -22,3 +22,4 @@ git branch
 git branch <new branch>
 git checkout <change branch, changes files>
 git merge <branch>
+git pull = git fetch +git merge
